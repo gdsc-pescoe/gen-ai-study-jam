@@ -172,10 +172,10 @@ function TableIndex() {
           <tr className='text-center'>
             <td className="rounded-ss-lg w-80 p-2 border-r-2 border-r-gray-300">Student Name</td>
             {/* <td className="p-2 border-r-2 border-r-gray-300">Email</td> */}
-            <td className="p-2 border-r-2 border-r-gray-300">Course Redemption Status</td>
-            <td className="mob:hidden p-2 px-10 border-r-2 border-r-gray-300">All 3 Pathways Completed</td>
+            <td className=" mob:visible  p-2 border-r-2 border-r-gray-300">Course Redemption Status</td>
+            <td className="mob:visible p-2 px-10 border-r-2 border-r-gray-300">All 3 Pathways Completed</td>
             <td className="mob:hidden p-2 border-r-2 border-r-gray-300 max-w-[150px]">Prompt Design in Vertex AI Completion</td>
-            <td className="mob:rounded-se-lg visible p-2 border-r-2 border-r-gray-300  max-w-[150px]"> Develop GenAI Apps with Gemini and Streamlit Completion </td>
+            <td className="mob:hidden rounded-se-lg visible p-2 border-r-2 border-r-gray-300  max-w-[150px]"> Develop GenAI Apps with Gemini and Streamlit Completion </td>
             <td className="mob:hidden rounded-se-lg  p-2 border-r-2 border-r-gray-300 max-w-[150px]">Gen AI Arcade Game Completion</td>
             {/*<td className="mob:hidden p-2 max-w-[150px]">GenAI Completed</td>*/}
             {/* <td className="p-2 border-r-2 border-r-gray-300">Enroll Date & Time</td> */}

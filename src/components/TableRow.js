@@ -10,7 +10,7 @@ function TableRow({ participant }) {
       </td>
 
 
-      <td className="Redemption_Status p-3 relative">
+      <td className="Redemption_Status p-3 relative ">
         <div
           className={`w-fit m-auto rounded-3xl px-4 py-1 text-center ${
             participant["Campaign Code Redemption Status"] == "Yes"
@@ -36,7 +36,7 @@ function TableRow({ participant }) {
       {/*  </div>*/}
       {/*</td>*/}
 
-      <td className="Completions_both_Pathways_relative mob:hidden p-3 text-center">
+      <td className="Completions_both_Pathways_relative mob:visible p-3 text-center">
         <div
           className={`m-auto w-fit rounded-3xl px-5 py-1 text-center ${
             participant["All 3 Pathways Completed - Yes or No"] == "Yes"
@@ -50,7 +50,7 @@ function TableRow({ participant }) {
         </div>
       </td>
 
-      <td className="no_Courses_Completed mob:visible p-3 text-center">
+      <td className="no_Courses_Completed mob:hidden p-3 text-center">
         {participant["Prompt Design in Vertex AI Completion"]}
       </td>
 
