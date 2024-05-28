@@ -106,6 +106,10 @@ function TableIndex() {
 
         <div className="message bg-yellow-100 text-yellow-700 p-5 rounded-lg shadow-lg shadow-yellow-300/30 text-center border border-yellow-300/30">
           <p className="text-center">
+            The information provided on this site is regularly maintained and updated, with the most recent update occurring on May 27th at 12:00 AM.
+
+
+
 
 
             {/*<div className="message bg-yellow-100 text-yellow-700 p-5 rounded-lg shadow-lg shadow-yellow-300/30 text-center border border-yellow-300/30"><p className="text-center">⏰ Tick Tick Tick 🚀🎉</p>*/}
@@ -113,7 +117,7 @@ function TableIndex() {
             {/*  <h2 className={'font-size:40px'} >{timer}</h2>*/}
             {/*</div>*/}
           </p>
-          <br></br>
+          {/*<br></br>*/}
           {/*We appreciate your participation and dedication to learning about Google GEN AI technologies. We hope you*/}
           {/*enjoyed the sessions and learned something new. We are excited to see you all at the next campaign. <br></br>*/}
 
