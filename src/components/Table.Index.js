@@ -106,7 +106,6 @@ function TableIndex() {
 
         <div className="message bg-yellow-100 text-yellow-700 p-5 rounded-lg shadow-lg shadow-yellow-300/30 text-center border border-yellow-300/30">
           <p className="text-center">
-            The information provided on this site is regularly maintained and updated, with the most recent update occurring on May 31th at 12:00 AM.
 
 
 
@@ -118,8 +117,8 @@ function TableIndex() {
             {/*</div>*/}
           </p>
           {/*<br></br>*/}
-          {/*We appreciate your participation and dedication to learning about Google GEN AI technologies. We hope you*/}
-          {/*enjoyed the sessions and learned something new. We are excited to see you all at the next campaign. <br></br>*/}
+          We appreciate your participation and dedication to learning about Google GEN AI technologies. We hope you
+          enjoyed the sessions and learned something new. We are excited to see you all at the next campaign. <br></br>
 
 
         </div>
